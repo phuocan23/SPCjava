@@ -8,11 +8,11 @@ package spc.edu;
  *
  * @author Administrator
  */
-public class bai1hellwork {
+public class bai2tinhtong {
     public static void main(String[] args) {
-        System.out.println("hello work!");
+        System.out.println("chuong trinh tinh tong 2 so");
         int a=10,b=9;
-        int tong=a + b;
-        System.out.println("Tong = " + tong);
+    int tong =a + b;
+    System.out.println("Tong = " + tong);
     }
 }
