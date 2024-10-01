@@ -8,6 +8,11 @@ package spc.edu;
  *
  * @author Administrator
  */
-public class baikiemtra2 {
-    
+public class HinhVuong extends HinhChuNhat {
+    public HinhVuong(){
+        super();
+    }
+    public HinhVuong(int doRong){
+        super(doRong,doRong);
+    }
 }

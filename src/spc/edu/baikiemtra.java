@@ -17,13 +17,12 @@ public class baikiemtra {
         r = sc.nextDouble();
         System.out.println("nhap dien tich hinh cau la: ");
         s = sc.nextDouble();
-        s = 4*pi*(r*r);
-        v = 4/3*pi *(r * r * r); 
+        s = 4*Math.PI*(r*r); 
         System.out.print("nhap the tich hinh cau la: ");
-    }
-    
-    
+        v = 4/3*Math.PI*(r * r * r); 
+    }  
 }
+
 
     public class baikiemtra {
         public static void main(String[] args) {

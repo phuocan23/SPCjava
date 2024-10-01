@@ -8,7 +8,7 @@ package spc.edu;
  *
  * @author Administrator
  */
-public class bai20_tinhbang extends javax.swing.JFrame {
+public class bai20_tinhbang{
 
     /**
      * Creates new form 
