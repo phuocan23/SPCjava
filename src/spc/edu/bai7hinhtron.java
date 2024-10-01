@@ -19,5 +19,7 @@ public class bai7hinhtron {
         System.out.println("chu vi =" + s);
         p = r*r*Math.PI;
         System.out.println("dien tich =" + p);
+        
     }
 }
+        

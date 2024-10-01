@@ -645,74 +645,79 @@ public class bai20_tinhbang extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        double t=Math.sin(Double.parseDouble(jTextField1.setText()));
+        double t=Math.sin(Double.parseDouble(jTextField1.getText()));
+
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        double t=Math.cos(Double.parseDouble(jTextField1.setText()));
+        double t=Math.cos(Double.parseDouble(jTextField1.getText()));
+
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        double t=Math.tan(Double.parseDouble(jTextField1.setText()));
+        double t=Math.tan(Double.parseDouble(jTextField1.getText()));
+
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        double t=Math.sinh(Double.parseDouble(jTextField1.setText()));
+        double t=Math.sinh(Double.parseDouble(jTextField1.getText()));
+
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        double t=Math.cosh(Double.parseDouble(jTextField1.setText()));
+        double t=Math.cosh(Double.parseDouble(jTextField1.getText()));
+
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        double t=Math.tanh(Double.parseDouble(jTextField1.setText()));
+        double t=Math.tanh(Double.parseDouble(jTextField1.getText()));
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        double t=Math.log(Double.parseDouble(jTextField1.setText()));
+        double t=Math.log(Double.parseDouble(jTextField1.getText()));
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        double t=Math.exp(Double.parseDouble(jTextField1.setText()));
+        double t=Math.exp(Double.parseDouble(jTextField1.getText()));
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       double t=Math.sqrt(Double.parseDouble(jTextField1.setText()));
+       double t=Math.sqrt(Double.parseDouble(jTextField1.getText()));
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-       double t=1/x(Double.parseDouble(jTextField1.setText()));
+       double t=1/x(Double.parseDouble(jTextField1.getText()));
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        double t=Double.parseDouble(jTextField1.setText());
+        double t=Double.parseDouble(jTextField1.getText());
         t=t*t;
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        double t=Double.parseDouble(jTextField1.setText());
+        double t=Double.parseDouble(jTextField1.getText());
         t-t*t*t;
         jTextField1.setText(" ");
         jTextField1.setText(jTextField1.getText() + t);
